@@ -8,7 +8,7 @@ import './index.css'
 const Home = () => {
   const jwtToken = Cookies.get('jwt_token')
   if (jwtToken === undefined) {
-    return <Redirect to="/login" />
+    return <Redirect to="/pradeep_trendz/login" />
   }
 
   return (
@@ -29,7 +29,7 @@ const Home = () => {
             heard that way you are. So, celebrate the seasons new and exciting
             fashion in your own way.
           </p>
-          <Link to="/products">
+          <Link to="/pradeep_trendz/products">
             <button type="button" className="shop-now-button">
               Shop Now
             </button>

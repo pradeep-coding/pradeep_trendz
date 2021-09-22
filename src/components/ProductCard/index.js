@@ -7,7 +7,7 @@ const ProductCard = props => {
   const {title, brand, imageUrl, rating, price, id} = productData
 
   return (
-    <Link to={`/products/${id}`} className="link-item">
+    <Link to={`/pradeep_trendz/products/${id}`} className="link-item">
       <li className="product-item">
         <img src={imageUrl} alt="product" className="thumbnail" />
         <h1 className="title">{title}</h1>

@@ -118,17 +118,25 @@ class App extends Component {
           }}
         >
           <Switch>
-            <Route exact path="/login" component={LoginForm} />
-            <ProtectedRoute exact path="/" component={Home} />
-            <ProtectedRoute exact path="/products" component={Products} />
+            <Route exact path="/pradeep_trendz/login" component={LoginForm} />
+            <ProtectedRoute exact path="/pradeep_trendz/" component={Home} />
             <ProtectedRoute
               exact
-              path="/products/:id"
+              path="/pradeep_trendz/products"
+              component={Products}
+            />
+            <ProtectedRoute
+              exact
+              path="/pradeep_trendz/products/:id"
               component={ProductItemDetails}
             />
-            <ProtectedRoute exact path="/cart" component={Cart} />
-            <Route path="/not-found" component={NotFound} />
-            <Redirect to="not-found" />
+            <ProtectedRoute
+              exact
+              path="/pradeep_trendz/cart"
+              component={Cart}
+            />
+            <Route path="/pradeep_trendz/not-found" component={NotFound} />
+            <Redirect to="/pradeep_trendz/not-found" />
           </Switch>
         </CartContext.Provider>
       </BrowserRouter>

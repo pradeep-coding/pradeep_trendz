@@ -33,7 +33,7 @@ const Header = props => {
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
-          <Link to="/">
+          <Link to="/pradeep_trendz/">
             <img
               className="website-logo"
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
@@ -52,7 +52,7 @@ const Header = props => {
         </div>
 
         <div className="nav-bar-large-container">
-          <Link to="/">
+          <Link to="/pradeep_trendz/">
             <img
               className="website-logo"
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
@@ -61,19 +61,19 @@ const Header = props => {
           </Link>
           <ul className="nav-menu">
             <li className="nav-menu-item">
-              <Link to="/" className="nav-link">
+              <Link to="/pradeep_trendz/" className="nav-link">
                 Home
               </Link>
             </li>
 
             <li className="nav-menu-item">
-              <Link to="/products" className="nav-link">
+              <Link to="/pradeep_trendz/products" className="nav-link">
                 Products
               </Link>
             </li>
 
             <li className="nav-menu-item">
-              <Link to="/cart" className="nav-link">
+              <Link to="/pradeep_trendz/cart" className="nav-link">
                 Cart
                 {renderCartItemsCount()}
               </Link>
@@ -91,7 +91,7 @@ const Header = props => {
       <div className="nav-menu-mobile">
         <ul className="nav-menu-list-mobile">
           <li className="nav-menu-item-mobile">
-            <Link to="/" className="nav-link">
+            <Link to="/pradeep_trendz/" className="nav-link">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
                 alt="nav home"
@@ -101,7 +101,7 @@ const Header = props => {
           </li>
 
           <li className="nav-menu-item-mobile">
-            <Link to="/products" className="nav-link">
+            <Link to="/pradeep_trendz/products" className="nav-link">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-icon.png"
                 alt="nav products"
@@ -110,7 +110,7 @@ const Header = props => {
             </Link>
           </li>
           <li className="nav-menu-item-mobile">
-            <Link to="/cart" className="nav-link">
+            <Link to="/pradeep_trendz/cart" className="nav-link">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-icon.png"
                 alt="nav cart"
