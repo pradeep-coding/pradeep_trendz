@@ -119,7 +119,7 @@ class App extends Component {
         >
           <Switch>
             <Route exact path="/pradeep_trendz/login" component={LoginForm} />
-            <ProtectedRoute exact path="/pradeep_trendz/" component={Home} />
+            <ProtectedRoute exact path="/pradeep_trendz" component={Home} />
             <ProtectedRoute
               exact
               path="/pradeep_trendz/products"

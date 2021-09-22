@@ -10,7 +10,7 @@ const Header = props => {
   const onClickLogout = () => {
     const {history} = props
     Cookies.remove('jwt_token')
-    history.replace('/pradeep_trendz/login')
+    history.replace('/pradeep_trendz/login/')
   }
 
   const renderCartItemsCount = () => (
@@ -33,7 +33,7 @@ const Header = props => {
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
-          <Link to="/pradeep_trendz/">
+          <Link to="/pradeep_trendz">
             <img
               className="website-logo"
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
@@ -52,7 +52,7 @@ const Header = props => {
         </div>
 
         <div className="nav-bar-large-container">
-          <Link to="/pradeep_trendz/">
+          <Link to="/pradeep_trendz">
             <img
               className="website-logo"
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
@@ -61,7 +61,7 @@ const Header = props => {
           </Link>
           <ul className="nav-menu">
             <li className="nav-menu-item">
-              <Link to="/pradeep_trendz/" className="nav-link">
+              <Link to="/pradeep_trendz" className="nav-link">
                 Home
               </Link>
             </li>
@@ -91,7 +91,7 @@ const Header = props => {
       <div className="nav-menu-mobile">
         <ul className="nav-menu-list-mobile">
           <li className="nav-menu-item-mobile">
-            <Link to="/pradeep_trendz/" className="nav-link">
+            <Link to="/pradeep_trendz" className="nav-link">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-icon.png"
                 alt="nav home"
